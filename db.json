@@ -1,0 +1,105 @@
+{
+  "doctors": [
+    {
+      "name": "Satya Deep",
+      "salary": "4000000",
+      "gender": "Male",
+      "age": "26",
+      "specialization": "cardio",
+      "id": 1
+    },
+    {
+      "name": "Teja",
+      "salary": "7000000",
+      "gender": "Male",
+      "age": "26",
+      "specialization": "Muscles",
+      "id": 2
+    },
+    {
+      "name": "Sam",
+      "salary": "4000000",
+      "gender": "Male",
+      "age": "26",
+      "specialization": "Bones",
+      "id": 3
+    },
+    {
+      "name": "Anu",
+      "salary": "7000000",
+      "gender": "Male",
+      "age": "26",
+      "specialization": "Blood Pressure",
+      "id": 4
+    }
+  ],
+  "patients": [
+    {
+      "name": "shravan",
+      "weight": "85",
+      "gender": "Male",
+      "age": "26",
+      "disease": "Headache",
+      "doctor": {
+        "id": 1,
+        "name": "Satya Deep",
+        "specialization": "cardio"
+      },
+      "id": 1
+    },
+    {
+      "name": "Satya Deep G",
+      "weight": "90",
+      "gender": "Male",
+      "age": "29",
+      "disease": "Headache",
+      "doctor": {
+        "id": 2,
+        "name": "Teja",
+        "specialization": "Muscles"
+      },
+      "id": 2
+    },
+    {
+      "name": "Abdul",
+      "weight": "86",
+      "gender": "Male",
+      "age": "29",
+      "disease": "Bones",
+      "doctor": {
+        "id": 3,
+        "name": "Sam",
+        "specialization": "Bones"
+      },
+      "id": 3
+    },
+    {
+      "name": "ram teja",
+      "weight": "65",
+      "gender": "male",
+      "age": "20",
+      "disease": "Brain",
+      "doctorId": "2",
+      "doctor": {
+        "id": 2,
+        "name": "Teja",
+        "specialization": "Muscles"
+      },
+      "id": 4
+    },
+    {
+      "name": "Poojas",
+      "weight": "60",
+      "gender": "female",
+      "age": "27",
+      "disease": "Depression",
+      "doctorId": "4",
+      "doctor": {
+        "id": 4,
+        "name": "Anu",
+        "specialization": "Blood Pressure"
+      },
+      "id": 5
+    }
+  ]
+}
